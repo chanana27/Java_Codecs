@@ -2,10 +2,7 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Scanner;
-
-
 public class URLExpSimple {
-
     public static void main(String[] args) {
         try {
             URL mySite = new URL("http://www.cs.utexas.edu/~scottm");
@@ -18,7 +15,8 @@ public class URLExpSimple {
             }
             System.out.println("Number of tokens: " + count);
             in.close();
-        } catch (Exception e) {
+            }
+        catch (Exception e) {
             e.printStackTrace();
         }
     }
