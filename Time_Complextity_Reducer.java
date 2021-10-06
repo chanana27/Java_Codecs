@@ -12,8 +12,7 @@ public class URLExpSimple {
             int a=0;
             while (in.hasNext()) {
                 System.out.println(in.next());
-                count++;
-            }
+                count++;}
             System.out.println("Number of tokens----> " + count);
             in.close();
             }
