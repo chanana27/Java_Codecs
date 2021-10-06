@@ -41,6 +41,7 @@ Puzzle(){
     setVisible(true);  
 }  
 public void actionPerformed(ActionEvent e){  
+    System.out.println("you can win this");
     if(e.getSource()==b1){  
         String label=b1.getLabel();  
         if(b2.getLabel().equals("")){  
@@ -174,6 +175,7 @@ public void actionPerformed(ActionEvent e){
     }    
 }  
 public static void main(String[] args) {  
+    System.out.println("lets begin the game!!!");
     new Puzzle();  
 }  
 }  
