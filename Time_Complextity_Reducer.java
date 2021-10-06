@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class URLExpSimple {
 
-    
     public static void main(String[] args) {
         try {
             URL mySite = new URL("http://www.cs.utexas.edu/~scottm");
