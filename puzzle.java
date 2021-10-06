@@ -24,6 +24,7 @@ Puzzle(){
     b9=new Button("8");  
     b9.setBounds(150,200,40,40);  
       
+    
     b1.addActionListener(this);  
     b2.addActionListener(this);  
     b3.addActionListener(this);  
